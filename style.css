@@ -9,5 +9,35 @@ html {
   
   body {
     background-image: linear-gradient(#615dad, #ffc8da);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
   }
+  
+  .content {
+    background-color: #283e50;
+    margin: 40px auto;
+    width: 400px;
+    border-radius: 6px 6px;
+  }
+  
+  h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin: 15px;
+  }
+  
+  .image img {
+    width: 400px;
+    border-radius: 7px 7px;
+  }
+  
+  .text {
+    margin: 0px 20px 30px;
+    font-size: 17px;
+  }
+  
   
