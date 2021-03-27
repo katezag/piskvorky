@@ -66,3 +66,66 @@ html {
   }
   
   
+.description {
+  padding: 0rem 3rem 3rem 3rem;
+}
+
+.rules__item {
+  margin-top: 1rem;
+}
+
+.circle,
+.cross {
+  filter: invert(100%);
+}
+
+.image-description {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 2rem;
+  /*justify-content: center;*/
+}
+
+.image-description__item {
+  max-width: 40%;
+}
+
+.image-description__item img {
+  max-width: 100%;
+}
+
+@media (max-width: 540px) {
+  .general-container,
+  .play-rules {
+    max-width: 80%;
+  }
+
+  .description {
+    padding: 0rem 1rem 1rem 1rem;
+  }
+
+  .image-description {
+    justify-content: center;
+  }
+
+  .image-description__item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 810px) {
+  .play-rules {
+    max-width: 80%;
+  }
+
+  .image-description {
+    justify-content: center;
+  }
+
+  .image-description__item {
+    max-width: 70%;
+  }
+}
