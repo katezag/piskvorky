@@ -72,6 +72,7 @@ html {
  
 .popis {
   padding: 0rem 3rem 3rem 3rem;
+  text-align: left;
 }
 
 .circle,
@@ -95,6 +96,7 @@ html {
 .obr-popis_item img {
   max-width: 100%;
 }
+
 
 @media (max-width: 540px) {
   .content,
@@ -124,4 +126,16 @@ html {
   .obr-popis {
     justify-content: center;
   }
+}
+
+
+.hra {
+  max-width: 80vmin;
+  margin: auto;
+}
+
+.hra-nadpis {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  margin: 5px 0 5px;
 }
