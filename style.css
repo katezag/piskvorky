@@ -139,3 +139,80 @@ html {
   font-size: 50px;
   margin: 5px 0 5px;
 }
+
+
+.nav-vlevo {
+  display: flex;
+  align-items: center;
+}
+
+.hra-hraje {
+  font-size: 28px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.hra-circle {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 10px;
+  filter: invert(100%);
+}
+
+.navigace {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-vpravo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 0;
+  width: calc((100% - 1px) / 3);
+}
+
+.ikona-home {
+  background-color: #1fcca4;
+  display: block;
+  border-radius: 6px;
+  padding: 5px 12px;
+}
+
+.ikona-home:hover {
+  background-color: #1cbb96;
+}
+
+.ikona-restart {
+  background-color: #0197f6;
+  margin-left: 0.2rem;
+  display: block;
+  border-radius: 6px;
+  padding: 5px 12px;
+}
+
+.ikona-restart:hover {
+  background-color: #0090e9;
+}
+
+.hraciPole {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vmin;
+  padding: 0;
+  border: 1px solid black;
+  margin: 0 0 5px;
+}
+
+.ctverec {
+  width: 10%;
+  background-color: #d5addd ;
+  border: 1px solid  #000000 ;
+}
+
+.ctverec:hover,
+.ctverec:focus {
+  background-color:  #ddcae4
+}
