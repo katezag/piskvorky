@@ -210,9 +210,28 @@ html {
   width: 10%;
   background-color: #d5addd ;
   border: 1px solid  #000000 ;
+  transition: 0.25s;
+  background-size: 0%;
+  background-position: center center;
 }
 
 .ctverec:hover,
 .ctverec:focus {
   background-color:  #ddcae4
+}
+
+.ctverec--cross {
+  background-image: url('images/cross.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+  cursor: default;
+}
+
+.ctverec--circle {
+  background-image: url('images/circle.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+  cursor: default;
 }
